@@ -53,6 +53,11 @@ body {
   padding-top: 30px;
 }
 
+.upper-left button {
+  align-self: flex-start;
+  margin-left: 162px;
+}
+
 .header {
   position: fixed;
   top: 0px;
@@ -304,11 +309,6 @@ body {
   padding: 32px 52px;
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
-  color: rgb(40, 40, 41);
-  font-family: Arial;
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 /***** Bottom part **********/
@@ -598,7 +598,7 @@ input[type="checkbox"] {
   }
 
   .font5 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .font6 {
@@ -648,6 +648,11 @@ input[type="checkbox"] {
     padding-top: calc(3rem + 10px + 50px);
     padding-left: 15px;
     padding-right: 0px;
+  }
+
+  .upper-left button {
+    align-self: center;
+    margin-left: 0px;
   }
 
   .order1 {
@@ -709,6 +714,12 @@ input[type="checkbox"] {
     padding: 8px 5px;
   }
 
+  .middle-button {
+    width: 191px;
+    height: 96px;
+    align-self: center;
+  }
+
   /***** mobile bottom  *****/
 
   .form-container {
@@ -724,6 +735,13 @@ input[type="checkbox"] {
     margin-left: 0px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .submit-form {
+    width: 191px;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .girl {
@@ -761,6 +779,8 @@ input[type="checkbox"] {
   }
 
   .footer-button {
+    width: 191px;
+    height: 96px;
     padding: 16px 26px;
   }
 }
@@ -793,6 +813,11 @@ input[type="checkbox"] {
     padding-top: calc(3rem + 10px + 50px);
     padding-left: 15px;
     padding-right: 0px;
+  }
+
+  .upper-left button {
+    align-self: center;
+    margin-left: 0px;
   }
 
   .order1 {
@@ -855,7 +880,8 @@ input[type="checkbox"] {
   }
 
   .middle-button {
-    width: 50%;
+    width: 191px;
+    height: 96px;
     align-self: center;
   }
 
@@ -881,7 +907,8 @@ input[type="checkbox"] {
   }
 
   .submit-form {
-    width: 50%;
+    width: 250px;
+    height: 96px;
     margin-left: auto;
     margin-right: auto;
   }
