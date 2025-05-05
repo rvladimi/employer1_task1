@@ -2,7 +2,6 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const header = document.querySelector(".header");
-  const headerWidth = header.offsetWidth;
   // во время прокрутки текст в шапке сереет
   if (header) {
     header.classList.toggle("white");
